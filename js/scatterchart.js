@@ -66,7 +66,7 @@ function scatter_tsne(){
           .attr("r", 4)
           .attr("id", function(d, i){ return i;})
           .on("mouseover", function(d, i){
-           var img_html = "<img src ='./jpeg-mias/" + data['fnames'][i] + "' width='200'></img>"
+           var img_html = "<img src ='https://raw.githubusercontent.com/jasmainak/segmentation_interactive/master/jpeg-mias/" + data['fnames'][i] + "' width='200'></img>"
            document.getElementById('image').innerHTML = img_html;
            });
 
